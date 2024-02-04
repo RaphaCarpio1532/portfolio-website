@@ -83,12 +83,12 @@ html, body {
 
 body {
 	position: relative;
-	background-color: #0a0a0a;
+	background-color: #151515;
 	line-height: 1.7;
 	font-size: 19px;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
-	color: #FFF;
+	color: #EEEEEF;
 	overflow-x: hidden;
 }
 
@@ -153,17 +153,17 @@ hr {
 
 /* Selection */
 ::selection {
-	color: #fff;
+	color: #EEEEEE;
 	text-shadow: none;
 	background: #4c2122;
 }
 ::-moz-selection {
-	color: #fff;
+	color: #EEEEEE;
 	text-shadow: none;
 	background: #4c2122; /* Firefox */
 }
 ::-webkit-selection {
-	color: #fff;
+	color: #EEEEEE;
 	text-shadow: none;
 	background: #4c2122; /* Safari */
 }
@@ -198,9 +198,23 @@ hr {
 
 /* Body font
 ============= */
+@font-face {
+    font-family: 'Brooklyn-VF';
+    src: local('Brooklyn-VF'), url('D:\CODING\Proyectos\2024_PortfolioRapha\my-portfolio\assets\font') format('ttf'),
+         url('D:\CODING\Proyectos\2024_PortfolioRapha\my-portfolio\assets\font') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Brooklyn-VF', sans-serif;
+}
+
+
+/*
 body {
 	font-family: 'Poppins', sans-serif;
-}
+} */
 
 
 /* Secondary font
